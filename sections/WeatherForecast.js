@@ -46,7 +46,7 @@ fetch(forecastEndpoint)
                 <div>${hour}</div>
                 <div><img src="${weatherIcon}" alt="" /></div>
                 <div class="fs-3"><strong>${temperature}°C</strong></div>
-                <div>${weatherDescription}</div>
+                <div class="text-center" style="width: 120px">${weatherDescription}</div>
                 <div class="real-feel">Se simt: <strong>${feelsLike}°C</strong></div>
             </div>
             `;
